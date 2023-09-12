@@ -1,0 +1,53 @@
+// Imports
+@import "styles/variables.scss";
+@import "styles/main.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $poppin-typography;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: hsl(0, 0%, 94%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+input,
+button {
+  font-family: $poppin-typography;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  font-size: 32px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 1px;
+}

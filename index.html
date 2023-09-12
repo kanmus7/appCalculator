@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <!-- compute section -->
+      <section class="section__container--compute">
+        <div class="input__container--compute">
+          <label class="title-compute" for="day">DAY</label>
+          <input
+            placeholder="DD"
+            class="input-compute"
+            name="day"
+            type="number"
+          />
+          <span class="error__title"></span>
+        </div>
+        <div class="input__container--compute">
+          <label class="title-compute" for="">MONTH</label>
+          <input placeholder="MM" class="input-compute" type="number" />
+          <span class="error__title"></span>
+        </div>
+        <div class="input__container--compute">
+          <label class="title-compute" for="">YEAR</label>
+          <input placeholder="YYYY" class="input-compute" type="number" />
+          <span class="error__title"></span>
+        </div>
+      </section>
+      <!-- jump line && button -->
+      <div class="button-container">
+        <span class="line"></span>
+        <button>
+          <img src="./assets/images/icon-arrow.svg" alt="compute icon" />
+        </button>
+      </div>
+      <!-- results section -->
+      <section class="section__container--results">
+        <div class="input__container--result">
+          <span class="result">- -</span>
+          <h1>years</h1>
+        </div>
+        <div class="input__container--result">
+          <span class="result">- -</span>
+          <h1>months</h1>
+        </div>
+        <div class="input__container--result">
+          <span class="result">- -</span>
+          <h1>days</h1>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kanmus</a>.
+    </div>
+  </body>
+</html>
